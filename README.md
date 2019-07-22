@@ -1,5 +1,5 @@
-# share-webService
-## 使用spring-ws访问webService，废话不多说，直接上代码
+# spring-ws访问webService
+## 使用spring-ws访问webService支持认证，废话不多说，直接上代码
 ### 引入依赖：
         <dependency>
             <groupId>org.springframework.boot</groupId>
