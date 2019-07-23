@@ -21,6 +21,9 @@
       http://用户名:密码@www.webxml.com.cn/WebServices/IpAddressSearchWebService.asmx?wsdl
       ### 注意：协议要与wsdl的url一致，如wsdl的url用http则才有http，用https就采用https
  
+        1、通过-d命令指定您的java项目src路径
+        2、通过-p命令指定需生成包结构(指定之后会自动生成)
+        3、通过-Xauthfile命令指定访问带有401认证的webservice授权文件(文件路径或文件名可以随意更改 特别简单，请放心)。
 ### 编写代码：
           @Configuration
           public class WebServiceClientConfig {
